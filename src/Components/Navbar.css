@@ -1,0 +1,29 @@
+
+#navLeft {
+	float: left;
+	margin: 10;
+	padding: 0;
+	list-style: none; }
+#navLeft li {
+	float: left; }
+
+#navLeft li a {
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 27;
+    color: black; }
+
+#navRight {
+    float: right;
+    margin: 10;
+    padding: 0;
+    list-style: none; }
+#navRight li {
+    float: right; }
+
+#navRight li a {
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color:black; }
