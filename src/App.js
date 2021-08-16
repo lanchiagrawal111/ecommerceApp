@@ -1,18 +1,17 @@
-import React from 'react';
-import './App.css';
-import { Provider } from 'react-redux';
-import store from './store';
+import React from "react";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import "./App.css";
+import { Provider } from "react-redux";
+import store from "./store";
 
-import AddProduct from './Components/AddProduct';
-import Product from './Components/Product';
-import Cart from './Components/Cart';
+import AddProduct from "./Components/AddProduct";
+import Product from "./Components/Product";
+import Cart from "./Components/Cart";
 
-import {
-  BrowserRouter as Router,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import Navbar from './Components/Navbar';
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (
@@ -35,6 +34,7 @@ function App() {
           {/* <Route path="/product-detail" >
             <Product />
           </Route> */}
+          <ToastContainer autoClose={5000} />
         </div>
       </Router>
     </Provider>
@@ -44,24 +44,10 @@ function App() {
 function Home() {
   return (
     <div>
-      <h2>Home</h2>
-    </div>
-  );
-}
-
-function About() {
-  return (
-    <div>
-      <h2>About</h2>
-    </div>
-  );
-}
-
-
-function Dashboard() {
-  return (
-    <div>
-      <h2>Dashboard</h2>
+      <img
+        src="https://www.x-cart.com/wp-content/uploads/2017/05/2-768x256.png"
+        style={{ width: "100%" }}
+      />
     </div>
   );
 }
