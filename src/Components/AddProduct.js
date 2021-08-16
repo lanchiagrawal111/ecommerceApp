@@ -151,20 +151,7 @@ const AddProduct = () => {
             value={values.rating}
             onChange={handleValues}
           />
-          <div className={classes.labelStyle}>
-            <label>Upload Image</label>
-          </div>
-          <TextField
-            error={validation.image}
-            id="outlined-basic"
-            // label="Upload Image"
-            variant="outlined"
-            className={classes.textInput}
-            name="productImage"
-            type="file"
-            // value={values.image}
-            onChange={handleValues}
-          />
+
           <div className={classes.centerButton}>
             <Button
               type="submit"
