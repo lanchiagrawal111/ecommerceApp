@@ -186,8 +186,8 @@ const Product = ({ products }) => {
                     {product.name}
                   </Typography>
                 )}
-                {/* <br />
-                <br /> */}
+                <br />
+                {/* <br />  */}
                 {product.edit ? (
                   <textarea
                     style={{ whiteSpace: "pre-line" }}
@@ -205,8 +205,8 @@ const Product = ({ products }) => {
                     {product.description}
                   </Typography>
                 )}
-                {/* <br />
-                <br /> */}
+                <br />
+                {/* <br />  */}
                 {product.edit ? (
                   <input
                     style={{ whiteSpace: "pre-line" }}
@@ -219,8 +219,8 @@ const Product = ({ products }) => {
                     {`Price - ${product.price}`}
                   </Typography>
                 )}
-                {/* <br />
-                <br /> */}
+                <br />
+                {/* <br />  */}
                 {product.edit ? (
                   <input
                     style={{ whiteSpace: "pre-line" }}

@@ -1,4 +1,20 @@
 {
-  "products": [],
-  "cartProducts": []
+  "products": [
+    {
+      "name": "Appeal",
+      "description": "high Bandwidth",
+      "price": "10,000",
+      "rating": "5",
+      "id": 2
+    }
+  ],
+  "cartProducts": [
+    {
+      "name": "Appeal",
+      "description": "high Bandwidth",
+      "price": "10,000",
+      "rating": "5",
+      "id": "2"
+    }
+  ]
 }
