@@ -17,7 +17,8 @@ import { ADD_PRODUCT_IN_CART } from "./actionTypes";
 export const addProductInCart = (payload) => {
   return (dispatch) => {
     const { name, description, price, rating, id } = payload;
-    const url = "http://localhost:8000/cartProducts/";
+    const url =
+      "https://my-json-server.typicode.com/lanchiagrawal111/ecommerceApp/cartProducts";
 
     fetch(url, {
       method: "POST",
@@ -40,18 +41,21 @@ export const addProductInCart = (payload) => {
 export function addProduct(payload) {
   return (dispatch) => {
     const { name, description, price, rating } = payload;
-    const url = "http://localhost:8000/products/";
+    const url =
+      "http://my-json-server.typicode.com/lanchiagrawal111/ecommerceApp/products";
 
     fetch(url, {
       method: "POST",
       headers: {
-        "Content-Type": "application/x-www-form-urlencoded",
+        "Content-Type": "application/json",
+        Location:
+          "http://my-json-server.typicode.com/lanchiagrawal111/ecommerceApp/products",
       },
-      body: getFormBody({ name, description, price, rating }),
+      body: JSON.stringify({ name, description, price, rating }),
     })
       .then((response) => response.json())
       .then((data) => {
-        console.log("dATA", data);
+        // console.log("dATA", data);
         dispatch({
           type: ADD_A_PRODUCT,
           payload,
@@ -102,7 +106,8 @@ export function fetchAllProducts() {
 
 export function fetchCartProducts() {
   return (dispatch) => {
-    const url = "http://localhost:8000/cartProducts/";
+    const url =
+      "https://my-json-server.typicode.com/lanchiagrawal111/ecommerceApp/cartProducts";
     fetch(url)
       .then((response) => {
         return response.json();

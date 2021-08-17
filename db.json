@@ -20,6 +20,13 @@
       "price": "2",
       "rating": "5",
       "id": 4
+    },
+    {
+      "name": "Chocklate",
+      "description": "crunchy",
+      "price": "10,000",
+      "rating": "5",
+      "id": 5
     }
   ],
   "cartProducts": [
