@@ -1,41 +1,33 @@
 {
   "products": [
     {
-      "name": "tofee Packet",
-      "description": "sweety",
-      "price": "10,000",
-      "rating": "5",
-      "id": 2
-    },
-    {
-      "name": "Mobile",
-      "description": "48MP Primary Camera,119° 8MP Ultra-Wide",
-      "price": "20,000",
-      "rating": "5",
-      "id": 3
-    },
-    {
-      "name": "passpass",
-      "description": "sugary",
-      "price": "2",
-      "rating": "5",
-      "id": 4
-    },
-    {
       "name": "Chocklate",
       "description": "crunchy",
       "price": "10,000",
       "rating": "5",
       "id": 5
+    },
+    {
+      "name": "Laptop",
+      "description": "48MP Primary Camera,119° 8MP Ultra-Wide",
+      "price": "20,000",
+      "rating": "5",
+      "id": 6
+    },
+    {
+      "name": "Appeal",
+      "description": "Samsung double-door fridges usually come with features such as Five-different conversion modes, silent operation and less energy consumption, High-energy efficiency LED lighting, Digital Inverter technology for durability, Stabiliser-free Operation, Convertible Freezer, Fast Cooling, Easy-Slide Shelf, Energy-saving...",
+      "price": "20",
+      "rating": "4",
+      "id": 7
+    },
+    {
+      "name": "Appeal",
+      "description": "High Power",
+      "price": "5",
+      "rating": "5",
+      "id": 8
     }
   ],
-  "cartProducts": [
-    {
-      "name": "tofee Packet",
-      "description": "sweety",
-      "price": "10,000",
-      "rating": "5",
-      "id": "2"
-    }
-  ]
+  "cartProducts": []
 }
