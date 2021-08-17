@@ -10,9 +10,7 @@ const Navbar = ({ cartProducts }) => {
   useEffect(() => {
     store.dispatch(fetchCartProducts());
   }, []);
-  // useEffect(() => {
-  //   console.log("lalalla lori doodh bhri katori", cartProducts.length);
-  // }, [cartProducts]);
+
   return (
     <div
       style={{ display: "flex", flexDirection: "row", backgroundColor: "gray" }}

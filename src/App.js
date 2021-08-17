@@ -19,7 +19,7 @@ function App() {
       <Router>
         <div className="App">
           <Navbar />
-          <Route exact path="/">
+          <Route exact path="/ecommerceApp/">
             <Home />
           </Route>
           <Route path="/products">

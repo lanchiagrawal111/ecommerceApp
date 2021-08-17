@@ -1,17 +1,31 @@
 {
   "products": [
     {
-      "name": "Appeal",
-      "description": "high Bandwidth",
+      "name": "tofee Packet",
+      "description": "sweety",
       "price": "10,000",
       "rating": "5",
       "id": 2
+    },
+    {
+      "name": "Mobile",
+      "description": "48MP Primary Camera,119° 8MP Ultra-Wide",
+      "price": "20,000",
+      "rating": "5",
+      "id": 3
+    },
+    {
+      "name": "passpass",
+      "description": "sugary",
+      "price": "2",
+      "rating": "5",
+      "id": 4
     }
   ],
   "cartProducts": [
     {
-      "name": "Appeal",
-      "description": "high Bandwidth",
+      "name": "tofee Packet",
+      "description": "sweety",
       "price": "10,000",
       "rating": "5",
       "id": "2"

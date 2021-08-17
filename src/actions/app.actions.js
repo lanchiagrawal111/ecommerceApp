@@ -84,7 +84,8 @@ export function editProductSuccessful(payload) {
 
 export function fetchAllProducts() {
   return (dispatch) => {
-    const url = "http://localhost:8000/products/";
+    const url =
+      "https://my-json-server.typicode.com/lanchiagrawal111/ecommerceApp/products";
     fetch(url)
       .then((response) => {
         return response.json();
